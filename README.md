@@ -14,7 +14,7 @@ Olá, Meu nome é Eduardo e esse é o projeto de um WebSite replica do front end
   <img src="img3.png">
   <br>
   <br>
-  Como Executar
+  <h1>Como Executar</h1>
   </div>
   <br>
   Após abaixar a pasta do projeto execute o arquivo musicas.sql em um servidor por exemplo o xampp ou heidiSQL. Agora abra o cmd na pasta spotify\src\server, e
@@ -25,7 +25,7 @@ Olá, Meu nome é Eduardo e esse é o projeto de um WebSite replica do front end
 <br>
 <br>
  <div align="center">
- Projeto Futuro
+ <h1>Projeto Futuro</h1>
  </div>
  <br>
 Para projeto futuro pretendo realizar melhor o back end para que posso tocar as musicas e criar a parte do detalhes das musicas também melhorar as animações a música tocando, que não realizei   ainda pois o projeto atual é para ser apenas o front end de uma grande aplicação 
