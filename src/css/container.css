@@ -1,0 +1,446 @@
+.container{
+    background-color: #121212;
+    width: 100%;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+    border-radius: 0.5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container::-webkit-scrollbar {
+    width: 12px;           
+}
+
+.container::-webkit-scrollbar-track {
+    background: transparent;        
+}
+  
+.container::-webkit-scrollbar-thumb {
+    background-color: #898989;        
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background-color: #8F89A9;        
+}
+
+.menucontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.butonsT{
+    display: flex;
+    align-items: center;
+}
+
+.butonsT button{
+    cursor: not-allowed;
+    border-radius: 50%;
+    border: none;
+    padding: 7px;
+    font-size: 20px;
+    margin: 4px;
+    background: #0A051B;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.optionsT{
+    display: flex;
+    align-items: center;
+}
+
+.backgrondInt {
+    background: rgb(33,18,91);
+    background: linear-gradient(180deg, rgba(33,18,91,1) 30%, rgba(27,17,66,1) 46%, rgba(24,18,46,1) 66%, rgba(18,18,18,1) 79%);
+    width: 100%;
+    height: 27rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.optionsT button{
+    margin: 0 10px 0 0;
+}
+
+.planos{
+    background-color: white;
+    border: none;
+    padding: 9px 14px 9px 14px;
+    border-radius: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.planos:hover{
+    transform: scale(1.06);
+}
+
+.intalar{
+    background-color: #0A051B;
+    color: white;
+    border: none;
+    padding: 9px 14px 9px 14px;
+    border-radius: 1rem;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.intalar:hover{
+    transform: scale(1.06);
+}
+
+.intalar span{
+    margin: 0 5px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.notficacao{
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    padding: 7px;
+    font-size: 18px;
+    margin: 4px;
+    background: #0A051B;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.perfio{
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    padding: 3px;
+    margin: 4px;
+    background: #0A051B;
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.perfio img{
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.titlepart2 h1{
+    color: white;
+    font-size: 22px;
+    font-weight: 700; 
+}
+
+.titlepart2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+.titlepart2 p{
+    color: rgb(172, 172, 172);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0;
+}
+
+.titlepart2 p:hover{
+    text-decoration: underline;
+}
+
+.cardsPart2 { 
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.cardsP2 {
+    display: flex;
+    gap: 24px;
+    margin: 0rem 1rem;
+}
+
+.cardP2{
+    background-color: #181818;
+    padding: 18px;
+    border-radius: 0.5rem;
+    width: 100%;
+    cursor: pointer;
+    min-width: 9rem;
+    max-height: 15rem;
+}
+.cardP2:hover{
+    background-color:#252525;
+}
+
+.cardP2 h1{
+    color: white;
+    font-size: 30px;
+}
+
+.iconeP{
+    width: 100%;
+    border-radius: 0.5rem;
+    max-width: 9rem;
+}
+
+.textP h1{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.textP p{
+    font-size: 13px;
+    color: #b3b3b3;
+    font-weight: 200;
+    max-width: 8rem;
+    margin: 0;
+}
+
+.buttonPlayCardGrande{
+    background-color: #1FDF64;
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: -4rem 0.6rem 0rem 0rem;
+}
+.buttonPlayCardGrande:hover{
+    transform: scale(1.1);
+}
+
+.alinhabuttoncard{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonPlayCardGrande a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonInicio{
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+.buttonInicio a{
+    text-decoration: none;
+}
+
+.DetalhesdaMusica{
+    background-color: #121212;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    border-radius: 0.5rem;
+    width: 42%;
+    overflow: hidden scroll;
+}
+
+.DetalhesdaMusica::-webkit-scrollbar {
+    width: 12px;           
+}
+
+.DetalhesdaMusica::-webkit-scrollbar-track {
+    background: transparent;        
+}
+  
+.DetalhesdaMusica::-webkit-scrollbar-thumb {
+    background-color: #898989;        
+}
+
+.DetalhesdaMusica::-webkit-scrollbar-thumb:hover {
+    background-color: #8F89A9;        
+}
+
+.menuDdm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.menuDdm h1{
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menuDdm button{
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+
+.imgmusicDdm {
+    margin-top: 1rem;
+}
+
+.imgmusicDdm img{
+    width: 100%;
+    height: 20rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+
+.titlesMusicDdm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0.5rem;
+}
+
+.textsDdm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textsDdm h1{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0;
+    max-width: 15rem;
+}
+
+.textsDdm p{
+    font-size: 16px;
+    color: rgb(172, 172, 172);
+    font-weight: 400;
+    margin: 0;
+    margin-top: 0.5rem;
+    max-width: 15rem;
+}
+
+.iconsDdm{
+    display: flex;
+    align-items: center;
+}
+
+.iccoracao{
+    color: rgb(29, 185, 84);
+    font-size: 20px;
+    margin: 0 1rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.icops{
+    font-size: 18px;
+    color: rgb(172, 172, 172);
+    font-weight: 300;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sobreDdm{
+    width: 100%;
+    margin: 0.5rem;
+}
+
+.cardSobreDdm{
+    background-color: #242424;
+    border-radius: 0.5rem;
+}
+
+.imgDdm{
+    background-image: url("../images/artista.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 12rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.imgDdm h1{
+    font-size: 18px;
+    color: white;
+    padding: 1rem;  
+}
+
+.infosatDdm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.textsifDdm h1{
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.textsifDdm p{
+    font-size: 14px;
+    color: rgb(172, 172, 172);
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.creditos{
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+.segir button{
+    border: 1px solid rgb(172, 172, 172);
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 1rem;
+    width: 5rem;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.block1 {
+    position: relative;
+}
+
+.resizer {
+    position: absolute;
+    top: 0;
+    right: -5px; 
+    width: 10px; 
+    height: 100%;
+    cursor: ew-resize;
+    background-color: #333;
+    opacity: 0.5;
+}
+
+.block1.resizing .resizer {
+    opacity: 0.8;
+}
+  

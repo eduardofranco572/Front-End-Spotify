@@ -1,0 +1,139 @@
+.part2 {
+    background-color: #121212;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.part2::-webkit-scrollbar {
+    width: 9px;           
+}
+
+.part2::-webkit-scrollbar-track {
+    background: transparent;        
+}
+  
+.part2::-webkit-scrollbar-thumb {
+    background-color: #898989;        
+}
+
+.part2::-webkit-scrollbar-thumb:hover {
+    background-color: #8F89A9;        
+}
+
+.minhasmusicas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tags{
+    display: flex;
+}
+
+.tags h1{
+    color: white;
+    font-size: 14px;
+    margin: 1rem 1rem 1rem 0rem;
+    background-color: #2A2A2A;
+    padding: 7px 10px 7px 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.tags h1:hover{
+    background-color: #3a3a3a;
+}
+
+.pesquisaMin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.OpRecentes{
+    display: flex;
+    align-items: center;
+}
+
+.OpRecentes h1{
+    color: rgb(172, 172, 172);
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.inputpesq h1{
+    color: rgb(172, 172, 172);
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500; 
+}
+
+.OpRecentes h1:hover{
+    color: white;
+}
+
+.cardsSalvos{
+    margin-top: 1rem;
+}
+
+.card1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icone{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.infoscard{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.7rem;
+}
+
+.infoscard h1{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.infoscard p{
+    margin: 0;
+    color: rgb(172, 172, 172);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.card1:hover{
+    background-color: #2A2A2A;
+    transition: 0.1s;
+    border-radius: 0.5rem;
+}
+
+.scrollpart{
+    overflow: auto;
+}
+
+.links button{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: white;
+    color: rgb(172, 172, 172);
+    cursor: pointer;
+}
