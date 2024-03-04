@@ -1,6 +1,6 @@
-#Front End Spotify
+# Front end Spotify.
 
-Olá, Meu nome é Eduardo e esse é o projeto de um WebSite Para cadastra usuarios num sistema com banco de dados no qual foi progamado em Node e React, Projeto feito para aprimorar meu aprendizado.
+Olá, Meu nome é Eduardo e esse é o projeto de um WebSite replica do front end do site spotify no qual foi criado apenas olhando a imagem do site por isso não está extremamente idêntico pois n estão com a font nem tamanho iguais foi desenvolvido apenas o front end então apenas a parte visual não tendo um banck end para reproduzir as músicas, no projeto tem um banco de dados que eu criei para utilizar como uma API e ter as capas e nomes de músicas. Projeto feito para aprimorar meu aprendizado.
 <br>
 <br>
   <div align="center">
