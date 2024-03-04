@@ -4,7 +4,13 @@ Olá, Meu nome é Eduardo e esse é o projeto de um WebSite replica do front end
 <br>
 <br>
   <div align="center">
-  
+  <h1>Imagens do Site</h1>
+  <img src="img1.png">
+  <br>
+  <img src="img2.png">
+  <br>
+  <img src="img3.png">
+  <br>
   Como Executar
   </div>
   <br>
