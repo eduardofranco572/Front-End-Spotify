@@ -24,6 +24,13 @@ Olá, Meu nome é Eduardo e esse é o projeto de um WebSite replica do front end
   Agora abra a pasta src com o visual studio code ou outro editor de codigo. E execute o comando no terminal “npm start” nisso só aguardar que a aplicação irar abrir no navegador na porta 8000.
 <br>
 <br>
+ <div align="center">
+ Projeto Futuro
+ </div>
+ <br>
+Para projeto futuro pretendo realizar melhor o back end para que posso tocar as musicas e criar a parte do detalhes das musicas também melhorar as animações a música tocando, que não realizei   ainda pois o projeto atual é para ser apenas o front end de uma grande aplicação 
+ <br>
+ 
 <br>
   Aqui são umas das linguagens de progamação que tenho conhecimento. e que utilizo para criar meus sites 💻
 <br>
