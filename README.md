@@ -4,14 +4,15 @@ Olá, Meu nome é Eduardo e esse é o projeto de um WebSite replica do front end
 <br>
 <br>
   <div align="center">
+  
   Como Executar
   </div>
   <br>
-  Após abaixar a pasta do projeto execute o arquivo cadastrousernodejs em um servidor por exemplo o xampp ou heidiSQL. Agora abra o cmd na pasta register\src\server, e
-  execute o comando “node server.js” onde deverá  aparecer a seguinte mensagem, “Servidor rodando em http://localhost:5000 Conectado ao banco de dados MySQL”. 
+  Após abaixar a pasta do projeto execute o arquivo musicas.sql em um servidor por exemplo o xampp ou heidiSQL. Agora abra o cmd na pasta spotify\src\server, e
+  execute o comando “node server.js” onde deverá  aparecer a seguinte mensagem, “Servidor está rodando na porta 5000 Conectado ao banco de dados MySQL”. 
    <br>
    <br>
-  Agora abra a pasta src com o visual studio code ou outro editor de codigo. E execute o comando no terminal “npm start” nisso só aguardar que a aplicação irar abrir no navegador na porta 3000.
+  Agora abra a pasta src com o visual studio code ou outro editor de codigo. E execute o comando no terminal “npm start” nisso só aguardar que a aplicação irar abrir no navegador na porta 8000.
 <br>
 <br>
 <br>
