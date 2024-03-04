@@ -7,9 +7,12 @@ Olá, Meu nome é Eduardo e esse é o projeto de um WebSite replica do front end
   <h1>Imagens do Site</h1>
   <img src="img1.png">
   <br>
+  <br>
   <img src="img2.png">
   <br>
+  <br>
   <img src="img3.png">
+  <br>
   <br>
   Como Executar
   </div>
